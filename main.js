@@ -1,7 +1,7 @@
 $(document).ready(function(){
     $(".btn1").click(function(){
         fadeTextOut();
-        fadeTextIn();
+        setTimeout(fadeTextIn, 1000)
     });
   });
 
