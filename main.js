@@ -1,7 +1,7 @@
 $(document).ready(function(){
     $(".btn1").click(function(){
         fadeTextOut();
-        setTimeout(fadeTextIn, 300);
+        setTimeout(fadeTextIn, 1500);
     });
   });
 
@@ -11,5 +11,4 @@ function fadeTextOut() {
 
 function fadeTextIn() {
     $("p").fadeIn();
-    alert('rest');
 }
