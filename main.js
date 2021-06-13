@@ -11,4 +11,5 @@ function fadeTextOut() {
 
 function fadeTextIn() {
     $("p").fadeIn();
+    alert('rest')
 }
